@@ -342,7 +342,7 @@ async function placeOrder() {
     message += `\nOrder #: ${order.serialNumber}`;
 
     // Open WhatsApp
-    const whatsappNumber = '919366143590'; // Your number here
+    const whatsappNumber = '918486287593'; // Your number here
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 
